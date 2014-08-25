@@ -26,3 +26,8 @@ Status
 ======
 
 There is noting working right now. Chat functionality is not tested. (I will build/copy a test client and some decent tests later). The location based features are not yet implemented
+
+Developer Notes
+==============
+
+Please use git-flow (or the conventions of it)
