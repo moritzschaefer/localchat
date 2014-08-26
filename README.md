@@ -4,7 +4,7 @@ milestone 1:
 features
 --------
 
-- Receive messages from  5 km radius
+- Receive messages from  7 km radius
 - Update own position
 - Update own name
 - Send messages
@@ -17,11 +17,15 @@ JSON based on WebSockets.
 3. client sends update position
 4. ready to go. client can now send messages and will receive messages
 
+Clients send to server:
+{"action": <>, "field": <>, "value": <>}
 actions:
 - update(field is username or position)
+    - position value is in form "52.1242352345,13.123"
 - message
+    - "field" stays empty or is not present
+    - message is sent in "value"
 
-{"action": <>, "field": <>, "value": <>}
 
 Info
 ====

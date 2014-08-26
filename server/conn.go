@@ -96,7 +96,7 @@ func (um *UserManager) processMessage(senderConnection *Connection, message stri
 			return err
 		}
 	} else if dat["action"] == "message" {
-		um.sendMessage(senderConnection, message) //send message or dat["value"]
+		um.sendMessage(senderConnection, dat["value"].(string))
 	} else {
 		return fmt.Errorf("action %s not supported", dat["action"])
 	}

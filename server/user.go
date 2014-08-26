@@ -18,7 +18,7 @@ func (p Position) InRadius(other Position, distance float64) bool {
 	// TODO: Calculate distance
 	//
 
-	R := 6371.0
+	R := 6371000.0 // Meters
 	φ1 := p.latitude.toRadians()
 	φ2 := other.latitude.toRadians()
 	Δφ := (other.latitude - p.latitude).toRadians()
