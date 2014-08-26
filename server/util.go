@@ -21,6 +21,10 @@ func ParsePosition(serialInput string) (Position, error) {
 	if err != nil {
 		return Position{}, err
 	}
-	return Position{lat, long}, nil
+	return Position{Degrees(lat), Degrees(long)}, nil
+}
 
+type ConnectionMessage struct {
+	connection *Connection
+	message    string
 }

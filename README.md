@@ -17,6 +17,12 @@ JSON based on WebSockets.
 3. client sends update position
 4. ready to go. client can now send messages and will receive messages
 
+actions:
+- update(field is username or position)
+- message
+
+{"action": <>, "field": <>, "value": <>}
+
 Info
 ====
 
@@ -25,7 +31,7 @@ For the server i used a lot from here http://gary.burd.info/go-websocket-chat. T
 Status
 ======
 
-There is noting working right now. Chat functionality is not tested. (I will build/copy a test client and some decent tests later). The location based features are not yet implemented
+There is nothing working right now. Chat functionality is not tested. (I will build/copy a test client and some decent tests later). The location based features are not yet implemented
 
 Developer Notes
 ==============
