@@ -26,16 +26,32 @@ actions:
     - "field" stays empty or is not present
     - message is sent in "value"
 
+status
+------
+
+done
+
+milestone 2:
+============
+
+- Write a Mobile-ready client. (Android or HTML5)
+
+### to discuss:
+- Should message-radius be variable/user-set?
+- Implement tests in this milestone?
+- Security model
+
+
 
 Info
 ====
 
-For the server i used a lot from here http://gary.burd.info/go-websocket-chat. Thanks a lot!
+For the server and the webclient i used a lot of code from http://gary.burd.info/go-websocket-chat. Thanks a lot!
 
 Status
 ======
 
-There is nothing working right now. Chat functionality is not tested. (I will build/copy a test client and some decent tests later). The location based features are not yet implemented
+The prove of concept is running, though not really tested.
 
 Developer Notes
 ==============
