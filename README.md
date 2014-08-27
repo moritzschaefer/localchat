@@ -34,13 +34,12 @@ done
 milestone 2:
 ============
 
-- Write a Mobile-ready client. (Android or HTML5)
+- Write a mobile-ready client. (Android or HTML5)
 
 ### to discuss:
 - Should message-radius be variable/user-set?
 - Implement tests in this milestone?
 - Security model
-
 
 
 Info
